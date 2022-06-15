@@ -11,15 +11,15 @@ if(spinner){
   setTimeout(()=>{
     spinner.style.display="none";
     setLoading(false)
-},2000)
+},2500)
 }
   return (
     !loading && (
-      <div className='App'>
+      <div className="App">
         <Navbar />
-      <Home/>
-      <Footer />
-   </div>
+        <Home />
+        <Footer />
+      </div>
     )
   );
 }
