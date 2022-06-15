@@ -1,5 +1,6 @@
 import React from 'react'
-import style from "./Home.module.css"
+import style from "./Home.module.css";
+import axios from 'axios';
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import {
@@ -8,12 +9,29 @@ import {
   ModalContent,
   ModalHeader,
   ModalBody,
-  ModalFooter,
   ModalCloseButton,
 } from '@chakra-ui/react';
 import { useDisclosure } from '@chakra-ui/react'
+import { useEffect } from 'react';
+import { useState } from 'react';
 const Home = () => {
   const { isOpen, onOpen ,onClose} = useDisclosure()
+  const [data,setData]=useState([])
+  const [card,setCard]=useState([])
+  useEffect(() => {
+    axios.get("http://localhost:8080/homedata").then(function(res){
+    setData(res.data)
+      
+    })
+  
+  }, [])
+  useEffect(()=>{
+    axios.get("http://localhost:8080/Dealcard").then(function(res1){
+    setCard(res1.data)
+  })
+  },[])
+
+  
   return (
     <div>
       <div>
@@ -76,7 +94,55 @@ const Home = () => {
         </ModalContent>
       </Modal>
       </div>
+       <div className={style.welcomebox}>
+        <div className={style.welcomebox1}>
+        <img src= "https://images.ctfassets.net/wtodlh47qxpt/E2WVSq4FOeSCRAGy6LZZa/11c68fb3611baabb79e0ae892338098d/3_Strips.png" alt='stripes'/>
+        </div>
+        <div className={style.welcomebox2}>
+             WELCOME TO KFC!
+        </div>
+       </div>
+       <div className={style.menuContainer}>
+          <div className={style.browesParent} >
+            <h2 className={style.browse}>BROWSE CATEGORIES</h2>
+            <hr style={{border:"1px solid #e3e3e3",width:"75%"}}></hr>
+          </div>
+          <div className={style.dataParent}>
+            {data.map(data=>(
+              <div className={style.datachild}>
+                <div style={{width:"100%",height:"68%"}}>
+                <img style={{borderTopLeftRadius:"5px",borderTopRightRadius:"5px",width:"100%",height:"100%"}} src={data.image} alt=""/>
+                </div>
+                <div style={{backgroundColor:"#f8f7f5",paddingTop:"8%",paddingBottom:"8%",borderBottomRightRadius:"5px",borderBottomLeftRadius:"5px" ,fontWeight:"800"}}>{data.name}</div>
+              </div>
+            ))}
+          </div>
+       </div>
+       <div className={style.offerbody}>
+        <div className={style.stripe}>
+        <img style={{height:"35px"}}src= "https://images.ctfassets.net/wtodlh47qxpt/E2WVSq4FOeSCRAGy6LZZa/11c68fb3611baabb79e0ae892338098d/3_Strips.png" alt='stripes'/>
+        </div>
+        <div className={style.stripe1}>
+          <h1 style={{fontSize:"30px",fontWeight:'800'}}>OFFERS & DEALS</h1>
+          <p  style={{fontSize:"15px"}}>View All Deals</p>
+        </div>
+        <div className={style.cardContainer}>
+           {card.map(carddata=>(
+            <div className={style.cardchild}>
+              <div>
+                <img style={{borderTopLeftRadius:"5px",borderTopRightRadius:"5px"}}src={carddata.image} alt=""/>
+              </div>
+              <div style={{color:"red",fontSize:"20px",fontWeight:"700"}}>{carddata.title}</div>
+              <div style={{color:"black"}}>{carddata.discription}</div>
+              <div style={{display:"flex", justifyContent:"space-around",color:"black" ,paddingTop:"20px", paddingBottom:"20px",backgroundColor:"#f8f7f5"}}>
+                <div className={style.carddetail}>View Details</div>
+                <button className={style.cardbutton}>Redeem</button>
+              </div>
+            </div>
 
+           ))}
+     </div>
+    </div>
     </div>
   )
 }

@@ -1,0 +1,96 @@
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    position: sticky;
+    top: 0;
+    background: white;
+  }
+
+.navContainer {
+    width: 100%;
+    height: 120px;
+    /* margin-left: 10%; */
+
+    display: flex;
+    /* border: 1px solid red; */
+    justify-content: space-around;
+  }
+  .box1 {
+    width: 40%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    margin-left: 10%;
+    /* padding-left: 10%; */
+  }
+  .box2 {
+    width: 40%;
+    height: auto;
+  
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  .kfcLogo {
+    width: 78px;
+    height: 23px;
+  }
+  .menu {
+    font-weight: 400;
+  
+    margin-left: 20px;
+    margin-right: 10px;
+    text-decoration: none;
+  }
+  .menu123{
+    text-decoration: none;
+    color: black;
+  }
+  .deal {
+    font-weight: 400;
+    text-decoration: none;
+    color: black;
+  }
+  
+  .kfcLogo1 {
+    cursor: pointer;
+  }
+  
+  .signIn {
+    margin-left: 20px;
+    font-weight: 750;
+    display: flex;
+    align-items: center;
+    
+  }
+  .signIn1{
+         text-decoration: none;
+         color: black;
+  }
+  .box3 {
+    display: flex;
+    width: 20%;
+  
+    align-items: center;
+  }
+  .cartValue {
+    font-weight: 400;
+    margin-left: 20px;
+    align-items: center;
+  }
+  .kfcBuket {
+    width: 51px;
+    height: 51px;
+    cursor: pointer;
+  }
+  .kfcBuket1 {
+    margin-left: 20px;
+  }
+  .line {
+    margin-left: 20px;
+    width: 0.1px;
+    height: 40%;
+  
+    background-color: rgba(128, 128, 128, 0.219);
+  }

@@ -1,3 +1,105 @@
 .slider{
     margin-top: 30px;
 }
+.welcomebox{
+    background-color:#f8f7f5 ;
+    display:flex;
+    flex-direction: column;
+}
+.welcomebox1{
+    width:fit-content;
+   
+    margin-left: 13%;
+}
+.welcomebox2{
+    width:fit-content;
+    font-size: 30px;
+    font-weight: 800;
+    margin-top: 35px;
+    margin-bottom: 40px;
+    margin-left: 13%;
+}
+.menuContainer{
+ display:flex;
+ flex-direction: column;
+}
+.browesParent{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    width:70%;
+    margin:auto;
+    margin-top: 6%;
+    font-size: 26px;
+    font-weight: 800;
+}
+.dataParent{
+  width:70%;
+  margin:auto;
+  margin-top: 4%;
+  display:grid;
+  grid-template-columns: repeat(4,1fr);
+  grid-template-rows: auto;
+  gap:25px;
+  margin-bottom:8%;
+ 
+}
+.datachild{
+   border-radius: 5px;
+   background-color: #f8f7f5;
+   display:flex;
+   flex-direction: column;
+   
+  
+}
+.offerbody{
+    background-color: rgb(33, 37, 41);
+    color:white;
+    display:flex;
+    flex-direction: column;
+}
+.stripe{
+    width:fit-content;
+    margin-left: 13%;
+}
+.stripe1{
+    margin-top: 35px;
+    margin-bottom: 40px;
+    margin-left: 13%;
+    margin-right: 5%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cardContainer{
+  width:75%;
+  margin:auto;
+  display:grid;
+  grid-template-columns: repeat(4,1fr);
+  grid-template-rows: auto;
+  gap:25px;
+  margin-bottom:8%;
+}
+.cardchild{
+    background-color: white;
+    border-radius: 5px;
+}
+.cardbutton{
+    border:1px solid #202124;
+    color:#202124;
+    padding:10px 25px 10px 25px;
+    border-radius: 30px;
+    font-weight: 700;
+
+}
+.carddetail{
+     color:rgb(95, 95, 95);
+     text-decoration: underline;
+     font-weight: 700;
+}
+.cardbutton:hover{
+    background-color: #202124;
+    color:white
+}
+
+

@@ -1,8 +1,7 @@
-
 import './App.css';
 import Navbar from './components/Navbar';
 import Home from './page/Home';
-import Footer from './components/Footer';
+import Footer from './components/Footer/Footer';
 import { useState } from 'react';
 
 function App() {
@@ -12,7 +11,7 @@ if(spinner){
   setTimeout(()=>{
     spinner.style.display="none";
     setLoading(false)
-},2500)
+},2000)
 }
   return (
     !loading && (
