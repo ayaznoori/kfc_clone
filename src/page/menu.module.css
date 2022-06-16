@@ -7,7 +7,7 @@
 }
 .left{
     width: 30%;
-    position:sticky;
+    height: 500px;
     padding-left: 50px;
     text-align: left;
      
@@ -65,4 +65,24 @@ color: red;}
     justify-content: center;
     margin: auto;
     margin-top: 20px;
+    margin-bottom: 10px;
+}
+.itemcontainer2{
+    display: grid;
+    grid-template-columns: 32% 32% 32% ;
+    border-radius: 15px;
+    justify-content: space-around;
+    padding: 50px;
+
+
+}
+.itemcontainer2>div{
+    text-align: left;
+    line-height: 30px;
+    background-color: white;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+.itemcontainer2>div>h2{
+    padding-left: 10px;
 }

@@ -138,7 +138,7 @@ console.log(data.chicken_buckets);
      </div>
      <div id="NEW_LAUNCH"><h1>NEW LAUNCH</h1>
 
-     <div className={style.itemcontainer}> 
+     <div className={style.itemcontainer2}> 
      { !data.new_launch?"Loading":data.new_launch.map((ele,index)=> 
        <div>
        <img src={ele.img_url} alt={ele.name} width='100%'/>
@@ -152,7 +152,7 @@ console.log(data.chicken_buckets);
        )}</div>
         </div>
      <div id="CHICKEN_ROLLS"><h1>CHICKEN ROLLS</h1>
-     <div className={style.itemcontainer}> 
+     <div className={style.itemcontainer2}> 
      { !data.chicken_rolls?"Loading":data.chicken_rolls.map((ele,index)=> 
       <div>
       <img src={ele.img_url} alt={ele.name} width='100%'/>
@@ -167,7 +167,7 @@ console.log(data.chicken_buckets);
         </div>
      <div id="BIRYANI_BUCKETS">
       <h1>BIRYANI BUCKETS</h1>
-     <div className={style.itemcontainer}> 
+     <div className={style.itemcontainer2}> 
      { !data.biryani_buckets?"Loading":data.biryani_buckets.map((ele,index)=> 
       <div>
       <img src={ele.img_url} alt={ele.name} width='100%'/>
@@ -181,7 +181,7 @@ console.log(data.chicken_buckets);
        )}</div>
         </div>
      <div id="BOX_MEALS"><h1>BOX MEALS</h1>
-     <div className={style.itemcontainer}> 
+     <div className={style.itemcontainer2}> 
      { !data.box_meals?"Loading":data.box_meals.map((ele,index)=> 
        <div>
        <img src={ele.img_url} alt={ele.name} width='100%'/>
@@ -195,7 +195,7 @@ console.log(data.chicken_buckets);
        )}</div>
         </div>
      <div id="BURGERS"><h1>BURGERS</h1>
-     <div className={style.itemcontainer}> 
+     <div className={style.itemcontainer2}> 
      { !data.burgers?"Loading":data.burgers.map((ele,index)=> 
        <div>
        <img src={ele.img_url} alt={ele.name} width='100%'/>
@@ -209,7 +209,7 @@ console.log(data.chicken_buckets);
        )}</div>
         </div>
      <div id="STAY_HOME_SPECIALS"><h1>STAY HOME SPECIALS</h1>
-     <div className={style.itemcontainer}> 
+     <div className={style.itemcontainer2}> 
      { !data.stay_home_special?"Loading":data.stay_home_special.map((ele,index)=> 
       <div>
       <img src={ele.img_url} alt={ele.name} width='100%'/>
@@ -223,7 +223,7 @@ console.log(data.chicken_buckets);
        )}</div>
         </div>
      <div id="SNACKS"><h1>SNACKS</h1>
-     <div className={style.itemcontainer}> 
+     <div className={style.itemcontainer2}> 
      { !data.snacks?"Loading":data.snacks.map((ele,index)=> 
       <div>
       <img src={ele.img_url} alt={ele.name} width='100%'/>
@@ -237,7 +237,7 @@ console.log(data.chicken_buckets);
        )}</div>
         </div>
      <div id="BEVERAGES"><h1>BEVERAGES</h1>
-     <div className={style.itemcontainer}> 
+     <div className={style.itemcontainer2}> 
      { !data.drinks?"Loading":data.drinks.map((ele,index)=> 
  <div>
  <img src={ele.img_url} alt={ele.name} width='100%'/>
