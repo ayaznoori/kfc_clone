@@ -10,15 +10,15 @@ const Navbar = () => {
         <div className={styles.navContainer}>
           <div className={styles.box1}>
             <div className={styles.kfcLogo1}>
-              <img
+             <Link to='/'> <img
                 className={styles.kfcLogo}
                 src="https://online.kfc.co.in/static/media/kfcLogo.492728c6.svg"
                 alt=""
-              />
+              /></Link>
             </div>
 
             <div className={styles.menu}>
-              <Link className={styles.menu123} to="/">
+              <Link className={styles.menu123} to="/menu">
                 <h5 className={styles.menu12}>Menu</h5>
               </Link>
             </div>
@@ -36,7 +36,7 @@ const Navbar = () => {
                 style={{ marginRight: "10px", fontSize: "20px" }}
                 alt=""
               />
-              <Link className={styles.signIn1} to="/">
+              <Link className={styles.signIn1} to="/Login">
                 <h5>Sign In</h5>
               </Link>
             </div>
