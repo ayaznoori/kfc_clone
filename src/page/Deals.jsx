@@ -39,7 +39,7 @@ const Deals = () => {
               <div className={style.sign}>
               <div className={style.signtext}>SIGN IN TO SEE MORE EXCLUSIVE OFFERS & DEALS</div>
                 <div className={style.signbtn}>
-                  <button className={style.find}>Login</button>
+                 <Link to="/Login"> <button className={style.find}>Login</button></Link>
                   </div>
               </div>
               <div className={style.card}>
