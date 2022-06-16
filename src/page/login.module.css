@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500&display=swap');
 .container{
     text-align: center;
-    width: 600px;
+    width:40%;
     margin: auto;
- 
+    margin-top: 5%;
     padding: 35px;
 }
 .container>div{

@@ -10,7 +10,7 @@ const Login = () => {
         <div >
             <div >Sign In / Sign up</div><br/><br/>
             <div> <img src="https://online.kfc.co.in/static/media/kfcLogo.492728c6.svg" alt="kfc logo" tabindex="1"/></div><br/><br/>
-            <div className={style.title} >LET’S SIGN IN OR CREATE ACCOUNT WITH YOUR <br/>PHONE NUMBER!</div>
+            <div className={style.title} >LET’S SIGN IN OR CREATE ACCOUNT WITH YOUR PHONE NUMBER!</div>
         </div><br/><br/>
 		<form >
         <div>
