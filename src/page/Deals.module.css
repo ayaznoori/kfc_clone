@@ -1,0 +1,279 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    height: 1300px;
+  
+  }
+  .top {
+    background-color: #202124;
+    height: 68px;
+    width: 100%;
+  }
+  .dealsheader {
+    color: #212529;
+    display: flex;
+  }
+  .fimg{
+      width: 1349px;
+  }
+  
+  
+  .toptxt {
+    height: 20px;
+  
+    margin: 17px 15px 17px 0;
+    min-height: auto;
+  
+    min-width: auto;
+    font-size: 14px;
+    color: white;
+    font-weight: 700;
+    line-height: 20px;
+    text-align: left;
+    margin-left: 200px;
+    position: center;
+  }
+  .start {
+    height: 44px;
+    width: 180px;
+    border: 2px solid #e4002b;
+    margin: 4px 0 0 0;
+    padding: 11px 40px 11px 40px;
+    color: #ffffff;
+    background-color: #e4002b;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    margin-left: 350px;
+    border-radius: 20px;
+    margin-right: 300px;
+    cursor: pointer;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+  }
+  span {
+    display: inline;
+  }
+  
+  .txt {
+    font-size: 70px;
+  
+    position: absolute;
+  
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+  }
+  
+  
+  .insideimg {
+    /* margin-right: 900px; */
+    margin-left: 250px;
+  }
+  .belowtxt {
+    display: flex;
+    justify-content: space-between;
+    width: 928px;
+    margin-top: 30px;
+    margin-left: 250px;
+    
+  }
+  .h2 {
+    font-size: 38px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+  }
+  .plink{
+    text-decoration: underline;
+    margin-top: 10px;
+  }
+  .last {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    height: 876px;
+    width: 928px;
+    row-gap: 1px;
+    margin-left: 250px;
+    margin-top: 30px;
+    
+  }
+ 
+  
+  .divh3 h3{
+    top: 640px;
+    bottom: 300px;
+    color:white;
+    font-size: 32px;
+    margin-top:-200px;
+  }
+  
+   
+  .findkfcbtn {
+    color: white;
+    height: 44px;
+    width: 138px;
+    font-size: 15px;
+   margin-bottom: 80px;
+  
+    background-color: black;
+    border-radius: 20px;
+    border: 2px solid white;
+    margin-top: 20px;
+  }
+  .findkfcbtn:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+  }
+  .one {
+    height: 368px;
+    width: 276px;
+    border-radius: 10px;
+    background-color: #212529;
+    padding-top: -20px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    
+  
+  }
+ 
+  .two {
+    height: 368px;
+    width: 276px;
+    margin-top: 10px;
+    background-color: #e4002b;
+    border-radius: 7px;
+  }
+  .three {
+    height: 368px;
+    width: 276px;
+    margin-top: 10px;
+    /* background-color: #E4002B; */
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 7px;
+  }
+  .three img{
+    height: 210px;
+  }
+  .four {
+    height: 370px;
+    width: 276px;
+    margin-top: 10px;
+    /* background-color: #E4002B; */
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 7px;
+  }
+  .four img{
+    height: 210px;
+  }
+  .five {
+    height: 370px;
+    width: 276px;
+    margin-top: 10px;
+    /* background-color: #E4002B; */
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 7px;
+    margin-bottom: 60px;
+  }
+  .five img{
+    height: 210px;
+  }
+  .six {
+    height: 370px;
+    width: 276px;
+    margin-top: 10px;
+    /* background-color: #E4002B; */
+    /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    border-radius: 7px;
+  }
+  .six img{
+    height: 210px;
+  }
+  .hh {
+    position: absolute;
+  
+    top: 588px;
+    left: 20px;
+    right: 550px;
+    bottom: 300px;
+    /* transform: translate(-50%, -50%); */
+    color: black;
+  }
+  .moreexclusive {
+    color: white;
+    font-size: 30px;
+    margin-top: 55px;
+  }
+  .btn2 {
+    color: #ffffff;
+    height: 44px;
+    font-size: 18px;
+    width: 108px;
+    border: 2px solid white;
+    background-color: #e4002b;
+    border-radius: 30px;
+    cursor: pointer;
+    text-align: center;
+    margin-top: 50px;
+  }
+  .btn2:hover {
+    background-color: #ffffff;
+    color: #202124;
+    cursor: pointer;
+  }
+  .img2 {
+    /* height: 234px;
+    width: 276px; */
+  }
+  .h4 {
+    color: #e4002b;
+    font-size: 27px;
+    height: 44px;
+    width: 255px;
+    padding: 12px;
+    text-align: left;
+    margin-bottom: 60px;
+    font-style: bold;
+  }
+  
+  .h5 {
+    line-height: 0px;
+    font-size: 23px;
+    /* margin-top: -50px; */
+  }
+  .h5div {
+    margin-top: -50px;
+    font-size: 15px;
+  }
+  .divbtn {
+    display: flex;
+    justify-content: space-around;
+   
+  }
+  .knowmore {
+    text-decoration: underline;
+    cursor: pointer;
+    font-size: 15px;
+    margin-top: 30px;
+  }
+  .knowmore:hover {
+    background-color: #e3e3e3;
+  }
+  .Redeembtn {
+    height: 44px;
+    width: 108px;
+    border-radius: 20px;
+    border: 2px solid black;
+    margin-top: 10px;
+  }
+  .Redeembtn:hover {
+    background-color: #202124;
+    cursor: pointer;
+    color: #ffffff;
+  }
+  
+  

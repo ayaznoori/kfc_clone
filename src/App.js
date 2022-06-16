@@ -4,6 +4,7 @@ import Home from './page/Home';
 import Footer from './components/Footer/Footer';
 import { useState } from 'react';
 import { Route, Routes } from 'react-router-dom';
+import Deals from "./page/Deals"
 import Login from './page/Login';
 import Menu from './page/Menu';
 
@@ -23,7 +24,8 @@ if(spinner){
          <Routes>
             <Route path='/' element={<Home/>}/>
             <Route path='/Login' element={<Login/>}/>
-            <Route path='/menu' element={<Menu/>}/>       
+            <Route path='/menu' element={<Menu/>}/> 
+            <Route path='/deals' element={<Deals/>}/>       
          </Routes>
         <Footer />
       </div>
