@@ -1,279 +1,159 @@
 .main {
     display: flex;
     flex-direction: column;
-    height: 1300px;
-  
   }
-  .top {
-    background-color: #202124;
-    height: 68px;
-    width: 100%;
-  }
+
   .dealsheader {
     color: #212529;
     display: flex;
   }
+  .imag{
+    position:relative;
+    text-align: center;
+  }
   .fimg{
-      width: 1349px;
+    width:100%;
   }
   
-  
-  .toptxt {
-    height: 20px;
-  
-    margin: 17px 15px 17px 0;
-    min-height: auto;
-  
-    min-width: auto;
-    font-size: 14px;
-    color: white;
-    font-weight: 700;
-    line-height: 20px;
-    text-align: left;
-    margin-left: 200px;
-    position: center;
-  }
-  .start {
-    height: 44px;
-    width: 180px;
-    border: 2px solid #e4002b;
-    margin: 4px 0 0 0;
-    padding: 11px 40px 11px 40px;
-    color: #ffffff;
-    background-color: #e4002b;
-    font-size: 14px;
-    font-weight: 500;
-    line-height: 24px;
-    text-align: left;
-    margin-left: 350px;
-    border-radius: 20px;
-    margin-right: 300px;
-    cursor: pointer;
-    box-sizing: border-box;
-    margin-bottom: 20px;
-  }
-  span {
-    display: inline;
-  }
   
   .txt {
     font-size: 70px;
-  
+    font-weight: 600;
     position: absolute;
-  
-    top: 15%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: #ffffff;
   }
   
-  
   .insideimg {
-    /* margin-right: 900px; */
-    margin-left: 250px;
+    margin-left: 13%;
   }
   .belowtxt {
     display: flex;
     justify-content: space-between;
-    width: 928px;
+    width: 70%;
     margin-top: 30px;
-    margin-left: 250px;
+    margin-left: 13%;
+    align-items: center;
     
   }
   .h2 {
     font-size: 38px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
     
   }
   .plink{
     text-decoration: underline;
-    margin-top: 10px;
+    color:rgb(70, 70, 70)
   }
-  .last {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    height: 876px;
-    width: 928px;
-    row-gap: 1px;
-    margin-left: 250px;
-    margin-top: 30px;
-    
+  .cardcontainer{
+    width:74%;
+    margin:auto;
+    display:grid;
+    margin-top: 3%;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: auto;
+    gap:20px;
+    margin-bottom: 3%;
   }
- 
-  
-  .divh3 h3{
-    top: 640px;
-    bottom: 300px;
+  .near{
     color:white;
-    font-size: 32px;
-    margin-top:-200px;
-  }
-  
-   
-  .findkfcbtn {
-    color: white;
-    height: 44px;
-    width: 138px;
-    font-size: 15px;
-   margin-bottom: 80px;
-  
-    background-color: black;
-    border-radius: 20px;
-    border: 2px solid white;
-    margin-top: 20px;
-  }
-  .findkfcbtn:hover {
-    background-color: white;
-    color: black;
-    cursor: pointer;
-  }
-  .one {
-    height: 368px;
-    width: 276px;
-    border-radius: 10px;
-    background-color: #212529;
-    padding-top: -20px;
-    margin-top: 10px;
-    display: flex;
-    flex-direction: column;
-    
-  
-  }
- 
-  .two {
-    height: 368px;
-    width: 276px;
-    margin-top: 10px;
-    background-color: #e4002b;
-    border-radius: 7px;
-  }
-  .three {
-    height: 368px;
-    width: 276px;
-    margin-top: 10px;
-    /* background-color: #E4002B; */
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    border-radius: 7px;
-  }
-  .three img{
-    height: 210px;
-  }
-  .four {
-    height: 370px;
-    width: 276px;
-    margin-top: 10px;
-    /* background-color: #E4002B; */
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    border-radius: 7px;
-  }
-  .four img{
-    height: 210px;
-  }
-  .five {
-    height: 370px;
-    width: 276px;
-    margin-top: 10px;
-    /* background-color: #E4002B; */
-    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-    border-radius: 7px;
-    margin-bottom: 60px;
-  }
-  .five img{
-    height: 210px;
-  }
-  .six {
-    height: 370px;
-    width: 276px;
-    margin-top: 10px;
-    /* background-color: #E4002B; */
-    /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
-    border-radius: 7px;
-  }
-  .six img{
-    height: 210px;
-  }
-  .hh {
-    position: absolute;
-  
-    top: 588px;
-    left: 20px;
-    right: 550px;
-    bottom: 300px;
-    /* transform: translate(-50%, -50%); */
-    color: black;
-  }
-  .moreexclusive {
-    color: white;
-    font-size: 30px;
-    margin-top: 55px;
-  }
-  .btn2 {
-    color: #ffffff;
-    height: 44px;
-    font-size: 18px;
-    width: 108px;
-    border: 2px solid white;
-    background-color: #e4002b;
-    border-radius: 30px;
-    cursor: pointer;
     text-align: center;
-    margin-top: 50px;
+    position:relative;
   }
-  .btn2:hover {
-    background-color: #ffffff;
-    color: #202124;
-    cursor: pointer;
+  .nearimg{
+    width:100%;
+    max-height:100%;
   }
-  .img2 {
-    /* height: 234px;
-    width: 276px; */
+  .neartext{
+    position:absolute;
+    top:60%;
+    left: 50%;
+    font-weight: 800;
+    font-size:20px;
+    transform:translate(-50%,-50%)
   }
-  .h4 {
-    color: #e4002b;
-    font-size: 27px;
-    height: 44px;
-    width: 255px;
-    padding: 12px;
-    text-align: left;
-    margin-bottom: 60px;
-    font-style: bold;
+  .findbtn{
+    position:absolute;
+    bottom:10%;
+    width:100%;
+    color:white;
   }
-  
-  .h5 {
-    line-height: 0px;
-    font-size: 23px;
-    /* margin-top: -50px; */
+  .find{
+    border:2px solid white;
+    padding:15px 30px 15px 30px;
+    border-radius: 35px;
   }
-  .h5div {
-    margin-top: -50px;
-    font-size: 15px;
+  .find:hover{
+    background-color: white;
+    color:black
   }
-  .divbtn {
+  .sign{
+    background-color:#e4002b ;
+    border-radius: 5px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .signtext{
+    color:white;
+    font-weight: 800;
+    font-size:24px;
+    margin-top: 20%;
+    width:70%;
+    margin:auto;
+  }
+  .signbtn{
+    margin-bottom: 20%;
+  }
+  .card{
+    border-radius: 5px;
+    display:flex;
+    flex-direction: column;
+  }
+  .cardname{
+    color:#e4002b;
+    font-weight: 700;
+    font-size: 20px;
+    padding: 0px 3px 0px 3px;
+  }
+  .text{
+    padding: 0px 3px 0px 3px;
+    color:black;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top:3%;
+    
+  }
+  .view{
     display: flex;
     justify-content: space-around;
-   
+    align-items: center;
+    margin-top: 3%;
   }
-  .knowmore {
+  .viewcard{
     text-decoration: underline;
-    cursor: pointer;
-    font-size: 15px;
-    margin-top: 30px;
+    color:rgb(98, 98, 98);
   }
-  .knowmore:hover {
-    background-color: #e3e3e3;
+  .redeem{
+    border:2px solid #343a3f;
+    padding:15px 30px 15px 30px;
+    border-radius: 35px;
   }
-  .Redeembtn {
-    height: 44px;
-    width: 108px;
-    border-radius: 20px;
-    border: 2px solid black;
-    margin-top: 10px;
+  .carddata{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    height:100%;
+    display:flex;
+    flex-direction: column;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
   }
-  .Redeembtn:hover {
+  .redeem:hover{
     background-color: #202124;
-    cursor: pointer;
-    color: #ffffff;
+    color: white
   }
+
+   
   
   

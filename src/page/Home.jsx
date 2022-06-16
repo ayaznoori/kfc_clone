@@ -3,6 +3,7 @@ import style from "./Home.module.css";
 import axios from 'axios';
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
+import {Link, useNavigate} from "react-router-dom"
 import {
   Modal,
   ModalOverlay,
@@ -18,6 +19,7 @@ const Home = () => {
   const { isOpen, onOpen ,onClose} = useDisclosure()
   const [data,setData]=useState([])
   const [card,setCard]=useState([])
+  const navigate=useNavigate()
   useEffect(() => {
     axios.get("http://localhost:8080/homedata").then(function(res){
     setData(res.data)
@@ -31,6 +33,9 @@ const Home = () => {
   })
   },[])
 
+  const handleclick=()=>{
+    navigate("/menu")
+  }
   
   return (
     <div>
@@ -229,7 +234,7 @@ const Home = () => {
         </div>
         <div className={style.dataParent}>
           {data.map((data) => (
-            <div className={style.datachild}>
+            <div onClick={handleclick}className={style.datachild}>
               <div style={{ width: "100%", height: "68%" }}>
                 <img
                   style={{
@@ -270,11 +275,11 @@ const Home = () => {
           <h1 style={{ fontSize: "30px", fontWeight: "800" }}>
             OFFERS & DEALS
           </h1>
-          <p style={{ fontSize: "15px" }}>View All Deals</p>
+          <Link to="/deals"><p style={{ fontSize: "15px" }}>View All Deals</p></Link>
         </div>
         <div className={style.cardContainer}>
           {card.map((carddata) => (
-            <div className={style.cardchild}>
+          <div className={style.cardchild}>
               <div>
                 <img
                   style={{
@@ -303,7 +308,7 @@ const Home = () => {
                   borderBottomRightRadius:"5px"
                 }}
               >
-                <div className={style.carddetail}>View Details</div>
+               <div className={style.carddetail}>View Details</div>
                 <button className={style.cardbutton}>Redeem</button>
               </div>
             </div>

@@ -1,11 +1,13 @@
 nav {
     width: 100%;
     display: flex;
-    justify-content: space-around;
     position: sticky;
+    justify-content: space-around;
+    overflow: hidden;
     top: 0;
     background: white;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 2px 6px;
+    z-index: 1;
   }
 
 .navContainer {
