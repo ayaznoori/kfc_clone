@@ -23,7 +23,7 @@ const Navbar = () => {
               </Link>
             </div>
             <div className={styles.deal22}>
-              <Link className={styles.deal} to="/">
+              <Link className={styles.deal} to="/deals">
                 <h5 className={styles.menu12}>Deals</h5>
               </Link>
             </div>
