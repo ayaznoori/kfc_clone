@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500&display=swap');
+.container{
+    text-align: center;
+    width:40%;
+    margin: auto;
+    margin-top: 5%;
+    padding: 35px;
+}
+.container>div{
+display: flex;
+flex-direction: column; 
+align-items:center ;
+line-height:15px;
+}
+
+.title{
+    font-family: 'Barlow Condensed', sans-serif;
+     font-size: 25px;
+     font-weight: 800;
+     line-height: 30px;
+}
+.numberbox{
+    width: 100%;
+    border-bottom: 1px solid black;
+    font-size: 15px;
+    padding: 5px;
+}
+.numberbox:focus{
+    outline: none;
+}
+.checkbox{
+    font-size: 13px;
+}
+.otpdiv{
+    width:50%;
+    margin:auto;
+    display:flex;
+    justify-content: space-around;
+}
+.otp{
+  width:13%;
+  border-bottom:2px solid #494949;
+  outline:none;
+  text-align: center;
+}
+.submit{
+    padding: 8px 35px 8px 35px;
+    background-color: #dbdbdb;
+    color: rgb(61, 61, 61);
+    border-radius: 30px;
+}
+.submit:disabled{
+    cursor:no-drop;
+}
+
+.num{
+    color:rgb(96, 96, 96);
+}
+.num1{
+    color:rgb(96, 96, 96);
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 14px;
+}
+.resend{
+    cursor:pointer;
+    font-weight: bold;
+    text-decoration: underline;
+    color:rgb(96, 96, 96);
+    font-size: 14px;
+}
+.timer{
+    color:rgb(96, 96, 96);
+}

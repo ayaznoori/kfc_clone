@@ -1,8 +1,21 @@
-import React from "react";
+import React, { useState } from "react";
 import {  useNavigate } from "react-router-dom";
 import style from './login.module.css'
 const Login = () => {
   const navigate=useNavigate();
+  const[form,setForm]=useState()
+    const handeonchange=(e)=>{
+      let value=e.target.value
+       setForm(
+            value
+       )
+        
+    }
+   const handeOnSubmit=(e)=>{
+    e.preventDefault();
+    localStorage.setItem("data",form)
+    navigate("/Login/auth")
+   }
   const skipfun=()=>{
       navigate('/')
   }
@@ -12,16 +25,18 @@ const Login = () => {
             <div> <img src="https://online.kfc.co.in/static/media/kfcLogo.492728c6.svg" alt="kfc logo" tabindex="1"/></div><br/><br/>
             <div className={style.title} >LET’S SIGN IN OR CREATE ACCOUNT WITH YOUR PHONE NUMBER!</div>
         </div><br/><br/>
-		<form >
+		<form onSubmit={handeOnSubmit}>
         <div>
-            <input type='number' className={style.numberbox} placeholder='Phone Number*'/><br/><br/>
-        </div>        
+            <input type='number'  name="number" onChange={handeonchange} className={style.numberbox} placeholder='Phone Number*' required/><br/>
+            {form < 1000000000 && form > 0 ? <div style={{color:"red",textAlign:"left",display:"flex",alignItems:"center"}}><img src="https://login.kfc.co.in/auth/resources/1vkce/login/kfcIndiaLoginUIDev_2021_10_27_16_49/images/Error.svg" alt=""/><span style={{marginLeft:"10px"}}>Please enter a valid 10-digit mobile number</span></div> : ""}<br/>
+        </div> 
+       
         <div  >
-            <div className={style.checkbox}> <input type='checkbox' />By “logging in to KFC”, you agree to our <u><b >Privacy Policy</b></u> and
-                <u><b   >Terms &amp; Conditions.</b></u></div><br/>
+            <div className={style.checkbox}> By “logging in to KFC”, you agree to our <u><b >Privacy Policy</b></u> and
+                <u><b  >Terms &amp; Conditions.</b></u></div><br/>
         </div>
         <div  >
-            <button className={style.sendbox}>Send Me a Code</button>
+            <button type="submit" className={style.sendbox}>Send Me a Code</button>
         </div>
 		</form>
     <br/>

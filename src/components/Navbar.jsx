@@ -2,8 +2,8 @@ import React from 'react'
 import styles from "./Navbar.module.css";
 import {Link} from "react-router-dom"
 
-
 const Navbar = () => {
+  const otp=localStorage.getItem("otp")||null;
   return (
     <>
       <nav>
@@ -36,9 +36,9 @@ const Navbar = () => {
                 style={{ marginRight: "10px", fontSize: "20px" }}
                 alt=""
               />
-              <Link className={styles.signIn1} to="/Login">
-                <h5>Sign In</h5>
-              </Link>
+              
+                <h5>{otp==="1234" ? <h5>Account</h5>:<Link className={styles.signIn1} to="/Login"><h5>Sign In</h5></Link>}</h5>
+              
             </div>
           </div>
           <div className={styles.box3}>
