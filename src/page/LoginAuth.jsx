@@ -39,7 +39,7 @@ const LoginAuth = () => {
     const handeSubmit=(e)=>{
         e.preventDefault()
         if(bag==="1234") {
-            localStorage.setItem("otp",bag)
+           localStorage.setItem("otp",bag)
            navigate("/")
         }
     }
@@ -65,7 +65,7 @@ const LoginAuth = () => {
          <div className={style.timer}>{timer>0  ? <div className={style.resend}>Your code will expire in 0:{timer}sec</div> : ""}</div><br/>
          <div className={style.resend} onClick={() => window.location.reload(false)}>Resend the Code</div>
         </div> <br/><br/> <br/>
-        
+
         <div  >
             <button type="submit"className={style.submit} disabled={disable}>Submit</button>
         </div>
