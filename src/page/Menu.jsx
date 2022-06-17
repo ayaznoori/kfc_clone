@@ -1,13 +1,28 @@
-import React from "react";
+import React, { useContext } from "react";
 import { HashLink as Link } from "react-router-hash-link";
 import axios from "axios";
 import { useEffect, useState } from "react";  
 import style from './menu.module.css';
 import { useDisclosure } from "@chakra-ui/react";
 import { Modal, ModalOverlay, ModalContent, ModalHeader ,ModalCloseButton, ModalBody } from "@chakra-ui/react";
+import { Cartcontext } from "../context/cartcontext";
+import { useToast  } from "@chakra-ui/react";
 const Menu = () => {
   const { isOpen, onOpen ,onClose} = useDisclosure()
   const [data,setData]=useState([])
+  const {cart,setcart}=useContext(Cartcontext);
+const toast=useToast();
+ const ToastExample=() =>toast({
+            title: 'Cart',
+            description: "We've Added item to cart.",
+            status: 'success',
+            duration: 3000,
+            isClosable: true,
+          });
+  const handlecart=(e)=>{
+    setcart([...cart,e]);
+    ToastExample();
+  }
   useEffect(() => {
     axios.get("http://localhost:8080/items").then(function(res){
     setData(res.data)
@@ -15,9 +30,7 @@ const Menu = () => {
     })
   
   }, []);
-
-
-console.log(data.chicken_buckets);
+ 
 
   return <div className={style.container}>
     <Modal size="xl" isOpen={isOpen} onClose={onClose} isCentered>
@@ -124,14 +137,14 @@ console.log(data.chicken_buckets);
               <h1>CHICKEN BUCKETS</h1>
              <div className={style.itemcontainer}>
               
-              { !data.chicken_buckets?"Loading":data.chicken_buckets.map((ele,index)=> 
-               <div>
+              { !data.chicken_buckets?"Loading...":data.chicken_buckets.map((ele,index)=> 
+               <div key={index}>
                 <img src={ele.img_url} alt={ele.name} width='100%'/>
                  <h2><b>{ele.name}</b></h2>
                  <h2><b>{ele.price}</b></h2>
                  <h2><span>&#9679;</span>{ele.category} &#9679; {ele.serves}</h2>
                  <h2>{ele.description}</h2>
-                 <button className={style.addtocart} onClick={onOpen}>Add to Cart &nbsp;<img src="https://online.kfc.co.in/static/media/Icon_Add_to_Cart.58b87a9b.svg" alt="*"/></button>
+                 <button className={style.addtocart} onClick={()=>handlecart(ele)}>Add to Cart &nbsp;<img src="https://online.kfc.co.in/static/media/Icon_Add_to_Cart.58b87a9b.svg" alt="*"/></button>
                 </div> 
                )}
               </div>
@@ -140,7 +153,7 @@ console.log(data.chicken_buckets);
 
      <div className={style.itemcontainer2}> 
      { !data.new_launch?"Loading":data.new_launch.map((ele,index)=> 
-       <div>
+       <div key={index}>
        <img src={ele.img_url} alt={ele.name} width='100%'/>
         <h2><b>{ele.name}</b></h2>
         <h2><b>{ele.price}</b></h2>
@@ -154,7 +167,7 @@ console.log(data.chicken_buckets);
      <div id="CHICKEN_ROLLS"><h1>CHICKEN ROLLS</h1>
      <div className={style.itemcontainer2}> 
      { !data.chicken_rolls?"Loading":data.chicken_rolls.map((ele,index)=> 
-      <div>
+      <div key={index}>
       <img src={ele.img_url} alt={ele.name} width='100%'/>
        <h2><b>{ele.name}</b></h2>
        <h2><b>{ele.price}</b></h2>
@@ -169,7 +182,7 @@ console.log(data.chicken_buckets);
       <h1>BIRYANI BUCKETS</h1>
      <div className={style.itemcontainer2}> 
      { !data.biryani_buckets?"Loading":data.biryani_buckets.map((ele,index)=> 
-      <div>
+      <div key={index}>
       <img src={ele.img_url} alt={ele.name} width='100%'/>
        <h2><b>{ele.name}</b></h2>
        <h2><b>{ele.price}</b></h2>
@@ -183,7 +196,7 @@ console.log(data.chicken_buckets);
      <div id="BOX_MEALS"><h1>BOX MEALS</h1>
      <div className={style.itemcontainer2}> 
      { !data.box_meals?"Loading":data.box_meals.map((ele,index)=> 
-       <div>
+       <div key={index}>
        <img src={ele.img_url} alt={ele.name} width='100%'/>
         <h2><b>{ele.name}</b></h2>
         <h2><b>{ele.price}</b></h2>
@@ -197,7 +210,7 @@ console.log(data.chicken_buckets);
      <div id="BURGERS"><h1>BURGERS</h1>
      <div className={style.itemcontainer2}> 
      { !data.burgers?"Loading":data.burgers.map((ele,index)=> 
-       <div>
+       <div key={index}>
        <img src={ele.img_url} alt={ele.name} width='100%'/>
         <h2><b>{ele.name}</b></h2>
         <h2><b>{ele.price}</b></h2>
@@ -211,7 +224,7 @@ console.log(data.chicken_buckets);
      <div id="STAY_HOME_SPECIALS"><h1>STAY HOME SPECIALS</h1>
      <div className={style.itemcontainer2}> 
      { !data.stay_home_special?"Loading":data.stay_home_special.map((ele,index)=> 
-      <div>
+      <div key={index}>
       <img src={ele.img_url} alt={ele.name} width='100%'/>
        <h2><b>{ele.name}</b></h2>
        <h2><b>{ele.price}</b></h2>
@@ -225,7 +238,7 @@ console.log(data.chicken_buckets);
      <div id="SNACKS"><h1>SNACKS</h1>
      <div className={style.itemcontainer2}> 
      { !data.snacks?"Loading":data.snacks.map((ele,index)=> 
-      <div>
+      <div key={index}>
       <img src={ele.img_url} alt={ele.name} width='100%'/>
        <h2><b>{ele.name}</b></h2>
        <h2><b>{ele.price}</b></h2>
@@ -239,7 +252,7 @@ console.log(data.chicken_buckets);
      <div id="BEVERAGES"><h1>BEVERAGES</h1>
      <div className={style.itemcontainer2}> 
      { !data.drinks?"Loading":data.drinks.map((ele,index)=> 
- <div>
+ <div key={index}>
  <img src={ele.img_url} alt={ele.name} width='100%'/>
   <h2><b>{ele.name}</b></h2>
   <h2><b>{ele.price}</b></h2>

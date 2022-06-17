@@ -1,9 +1,17 @@
-import React from 'react'
+import React, { useContext, useEffect, useState } from 'react'
 import styles from "./Navbar.module.css";
 import {Link} from "react-router-dom"
+import { Cartcontext } from '../context/cartcontext';
 
 const Navbar = () => {
   const otp=localStorage.getItem("otp")||null;
+  const {cart}=useContext(Cartcontext);
+  const [total,settotal]=useState(0);
+ 
+ useEffect(()=>{
+  let sum=0;
+  cart.map((e)=>settotal(sum=sum+Number(e.price.slice(1))));
+ },[cart])
   return (
     <>
       <nav>
@@ -41,15 +49,12 @@ const Navbar = () => {
               
             </div>
           </div>
+       
           <div className={styles.box3}>
             <div className={styles.line}></div>
-            <div className={styles.cartValue}> ₹ {0}</div>
+            <div className={styles.cartValue}> ₹ {total.toFixed(2)}</div>
             <div className={styles.kfcBuket1}>
-              <img
-                className={styles.kfcBuket}
-                src="https://images.ctfassets.net/wtodlh47qxpt/6qtBVFuno7pdwOQ9RIvYm9/d13e9b7242980972cf49beddde2cc295/bucket_cart_icon.svg"
-                alt=""
-              />
+              {cart.length}
             </div>
           </div>
         </div>
