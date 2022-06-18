@@ -51,17 +51,17 @@ KFC Corporation, based in Louisville, Kentucky, is one of the few brands in Amer
 ## Glimpse and Screenshots of our cloned website:
 <table>
    <tr align=center>
-     <td  colspan=4>Landing Page <img src="https://miro.medium.com/max/1400/1*YFZ6Msu7spk95-P5ADaXLw.png" width=1000 ></td>
+     <td  colspan=4>Landing Page<img src="https://miro.medium.com/max/1400/1*YFZ6Msu7spk95-P5ADaXLw.png" width=1000 ></td>
   </tr>
   <tr>
-    <td>Sign Up Page<img src="" height=260 ></td>
-    <td>Otp Verification Page <img src="" height=250 ></td>
-    <td>Account Page<img src="" height=250></td>
-    <td>Help Page<img src="" height=250></td>
+    <td>Sign Up Page<img src="https://miro.medium.com/max/3822/1*RmNfD8odNlWduMPdbK4xMA.png" height=260 ></td>
+    <td>Otp Verification Page <img src="https://miro.medium.com/max/3822/1*SGYxHksBAA0ORke4BsjR3g.png" height=250 ></td>
+    <td>Account Page<img src="https://miro.medium.com/max/1400/1*jcqx9iT5j4wQIlHEDB6y7w.png" height=250></td>
+    <td>Help Page<img src="https://miro.medium.com/max/1400/1*NiNIHV07mmfPVhj0uGu6tw.png" height=250></td>
   <tr>
-   <td>Menu Page<img src="" height=250></td>
+   <td>Menu Page<img src="https://miro.medium.com/max/1400/1*jx8S8r2meBnwBME_txfh6w.png" height=250></td>
    <td>Cart Page<img src="" height=250></td>
-   <td>Deal Page<img src="" height=250></td>
+   <td>Deal Page<img src="https://miro.medium.com/max/1400/1*8hjpEpkQBlvIWQ1ff_-gJA.png" height=250></td>
    <td>Payment Page<img src="" height=250></td>
   </tr>
 </table>
