@@ -51,7 +51,7 @@ KFC Corporation, based in Louisville, Kentucky, is one of the few brands in Amer
 ## Glimpse and Screenshots of our cloned website:
 <table>
    <tr align=center>
-     <td  colspan=4>Landing Page <img src="./screenshots/homepage.png" width=1000 ></td>
+     <td  colspan=4>Landing Page <img src="" width=1000 ></td>
   </tr>
   <tr>
     <td>Sign Up Page<img src="" height=260 ></td>
