@@ -48,69 +48,100 @@ KFC Corporation, based in Louisville, Kentucky, is one of the few brands in Amer
   </tr>
 </table>
 
-Glimpse and Screenshots of our cloned website:
+## Glimpse and Screenshots of our cloned website:
+<table>
+   <tr align=center>
+     <td  colspan=4>Landing Page <img src="./screenshots/homepage.png" width=1000 ></td>
+  </tr>
+  <tr>
+    <td>Sign Up Page<img src="" height=260 ></td>
+    <td>Otp Verification Page <img src="" height=250 ></td>
+    <td>Account Page<img src="" height=250></td>
+    <td>Help Page<img src="" height=250></td>
+  <tr>
+   <td>Menu Page<img src="" height=250></td>
+   <td>Cart Page<img src="" height=250></td>
+   <td>Deal Page<img src="" height=250></td>
+   <td>Payment Page<img src="" height=250></td>
+  </tr>
+</table>
 
-## Available Script For Run
+## Functionalities
 
-### `npm start`
+- User can order food online.
+- Auth Login through Mobile Number
+- user able to Logout.
+- Onclick any Category user get realated foods.
+- On Add to Cart user able to see Cost of food on top in Navbar.
+- user able to get multiple payment method.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Installation and Setup Instructions
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Clone down this repository. You will need **node** and **npm** installed globally on your machine.
+Installation:
+**npm install**
+To Run Test Suite:
+**npm test**
+To Start Server:
+**npm start**
+To Visit App:
+**http://localhost:3000/**
 
-### `npm test`
+##  <- - - - - - -  - - - - - - - - - - - - - -Links and Acclaim - - - - - - - - - - - - - - - - - - - - - ->
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## ‣ WebPage deployed link:
 
-### `npm run build`
+- Github Repo LINK: 
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Github Site Deployment link: 
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Netlify Link: 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Blog Link: 
 
-### `npm run eject`
+- A video link for an explanation of a Small Part of the Website: 
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## ‣ Acclaim for team members' Contributions:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+ ⁍ **Dev Ashish Saurabh**:
+   
+ - Linkedin: https://www.linkedin.com/in/dev-ashish-saurabh/
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+        
+         1.Create a Full Landing Page With All functionality..
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+         2.Creation of Signup page, otp verification Page with login,logout Function which includes the hovering and routing.
 
-## Learn More
+         3.Update Deal Page ,Help Page and Account Page with full functional and openable on every screen.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+         4.Enabled functionalities with extensive use of React.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+         5.Integrated all the pages with functionality to deliver a seamless experience to the user.
 
-### Code Splitting
+         6.Most Importantly assessment of team members' daily schedule tasks,
+           daily morning scrum for dividing the task, taking daily assessment reports jointly contributing with team members and 
+           arranging team meetings to rectify and fix the bugs.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+         7.I've also managed the team and project as a Leader.
 
-### Analyzing the Bundle Size
+         My most satisfying contribution was building a transparent, inclusive, and very effective communication environment for my teammates.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+   ⁍ **Mohammad Ayaz Noori**:
+   
+   ⁍ **Shivam**:
+   
+   ⁍ **Sirtaj Khan**:
+   
+   ⁍ **Aditya Sharma**:
+   
 
-### Making a Progressive Web App
+## Show your support
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Give a ⭐️ if you like this project!
 
-### Advanced Configuration
+## Acknowledgments
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+- We take all the responsiblity for every single line of code. The desgin inspire from **https://online.kfc.co.in/**.
 
-### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
