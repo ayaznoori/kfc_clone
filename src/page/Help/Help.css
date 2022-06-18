@@ -1,10 +1,10 @@
 .img-container{
     width: 100%;
     display: flex;
+    position: relative;
 }
 .img-container img{
-    width: 101%;
-    margin-left: -1%;
+    width: 100%;
 }
 .img-container>div{
   position: absolute;
@@ -19,10 +19,10 @@
   
 }
 .how-help-box{
-    height: 380px;
-    width: 100.5%;
-    /* border: 1px solid red; */
-    margin-left: -0.5%;
+    width:90%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
 }
 .help-text>p{
     font-size: 30px;
@@ -33,26 +33,25 @@
 }
 .help-box-flex{
     width: 100%;
-    height: 150px;
-    /* border: 1px solid black; */
+    height: 100%;
+
     margin: auto;
-    /* text-align: center;
-    align-items: center; */
+    display: flex;
+    flex-direction: column;
     box-sizing: border-box;
 }
 .help-box{
-    width: 80%;
-    height: 35%;
-    /* border: 1px solid rgb(66, 167, 41); */
+    width:70%;
     display: flex;
-    margin-left: 200px;
-    /* justify-content: space-between; */
-    
+    margin:auto;
+    margin-top: 2%;
+    justify-content: space-around;
 }
 .kfc-line{
            border-bottom: 1px solid rgb(156, 156, 156);
            display: block;
            width: 170px;
+           margin-top: 1%;
            margin-bottom: 25px;
            margin-left: 10px;
            margin-right: 45px;
@@ -65,16 +64,8 @@
            height: 100%;
            /* width: 30%; */
            /* border: 1px solid orange; */
-        } */
-       .call-us{
-        height: 100%;
-           /* width: 30%; */
-           /* margin-right: -100px; */
-           /* border: 1px solid rgb(42, 167, 90); */
-       }
+        } *
         .call-us>p{
-           margin-top: -10px;
-           margin-left: 200px;
            font-size: 17px;
            font-weight: 500;
            line-height: 24px;
@@ -88,13 +79,10 @@
        } 
        
        .container-find-kfc{
-        width: 80%;
-        height: 50%;
-        /* border: 1px solid red; */
+        width: 70%;
+        margin: auto;
         display: flex;
-        margin-left: 200px;
-        /* justify-content: space-between; */
-
+        justify-content: space-around;
        }
        .find-a-kfc>button{
            background-color: white;
@@ -105,16 +93,12 @@
            font-size: 16px;
            font-weight: bold;
            cursor: pointer;
-       }
-       .contact-us>p{
-           margin-left: 200px;
-           margin-top: -10px;
+           margin-top: 3%;
        }
        .contact-us>button{
            background-color: white;
            border: 2px solid black;
            color: black;
-           margin-left: 190px;
            font-size: 15px;
            font-weight: 700;
            height: 47px;
@@ -122,19 +106,19 @@
            cursor: pointer;
        }
        .faq{
-           height: 270px;
-           width: 80%;
-           /* border:  1px solid red ; */
+           width: 60%;
            margin: auto;
+           margin-top: 5%;
            background-color: #f8f7f5;
            border-radius: 10px;
            margin-bottom: 40px;
+           padding-bottom: 9% ;
        }
        .faq-text>p{
            font-size: 18px;
            font-weight: 700;
            line-height: 30px;
-           padding-top: 10px;
+           padding-top: 2%;
        }
        .but-style{
            height: 45px;

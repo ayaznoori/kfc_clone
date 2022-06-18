@@ -1,10 +1,17 @@
 import React from 'react'
-import styles from "./Detail.module.css"
+import styles from "./Detail.module.css";
+import {Link, useNavigate} from "react-router-dom"
 
   
 
 const Detail = () => {
     
+const navigate=useNavigate()
+const logout=()=>{
+    localStorage.removeItem("otp")
+    localStorage.removeItem("data")
+    navigate("/")
+}
 
     
     return (
@@ -26,7 +33,7 @@ const Detail = () => {
                     <br/>
                     <br/>
                     <br/>
-                    <button style={{padding:"6px 15px",border:"1px solid white",borderRadius:"20px",background:"#202124",color:"white"}}>Sign Out</button>
+                    <button onClick={logout}style={{padding:"6px 15px",border:"1px solid white",borderRadius:"20px",background:"#202124",color:"white"}}>Sign Out</button>
                     </div>
 
                 </div>
@@ -41,7 +48,7 @@ const Detail = () => {
                         </div>
                         <div style={{textAlign:"left", marginTop:"50px"}}>
                             <p style={{color:"#858585"}}>No orders have been placed in the past 12 months.</p>
-                            <button style={{padding:"12px 25px",borderRadius:"20px",background:"black",color:"white"}}>View menu</button>
+                            <Link to="/menu"><button style={{padding:"12px 25px",borderRadius:"20px",background:"black",color:"white",marginTop:"4px"}}>View menu</button></Link>
                         </div>
                     </div>
                     <div className={styles.leftin}>
@@ -50,7 +57,7 @@ const Detail = () => {
                             <h3 style={{textAlign:"start", margin:0,padding:0}}>HAVE A QUESTION?</h3>
                             <p style={{textAlign:"start", margin:0,padding:0}}>Connect with a specialist for answers.</p>
                         </div>
-                        <div style={{marginTop:"25px"}}><button style={{padding:"12px 30px",border:"2px solid black",borderRadius:"30px",background:"white",}}>Get Help</button></div>
+                        <div style={{marginTop:"25px"}}><Link to="/Help"><button style={{padding:"12px 30px",border:"2px solid black",borderRadius:"30px",background:"white",}}>Get Help</button></Link></div>
                         
                     </div>
 

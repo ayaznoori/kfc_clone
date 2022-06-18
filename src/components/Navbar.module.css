@@ -49,9 +49,10 @@ nav {
   .menu123{
     text-decoration: none;
     color: black;
+    font-weight: 600;
   }
   .deal {
-    font-weight: 400;
+    font-weight: 600;
     text-decoration: none;
     color: black;
   }
@@ -78,9 +79,10 @@ nav {
     align-items: center;
   }
   .cartValue {
-    font-weight: 400;
+    font-weight: 500;
     margin-left: 20px;
     align-items: center;
+    color:#272124
   }
   .kfcBuket {
     width: 51px;
@@ -95,6 +97,8 @@ nav {
     background-image: url('https://images.ctfassets.net/wtodlh47qxpt/6qtBVFuno7pdwOQ9RIvYm9/d13e9b7242980972cf49beddde2cc295/bucket_cart_icon.svg');
     background-size: 50px;
     background-repeat: no-repeat;
+    color:#272124;
+    font-weight: 500;
 
   }
   .line {
