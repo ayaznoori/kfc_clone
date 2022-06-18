@@ -145,7 +145,9 @@ To Visit App:
    
    ⁍ **Shivam**:
    
-   ⁍ **Sirtaj Khan**:
+ ⁍ **Sirtaj Khan**:
+ 
+ - Linkedin: https://www.linkedin.com/in/sirtaj-khan-275135147
    
    ⁍ **Aditya Sharma**:
    
