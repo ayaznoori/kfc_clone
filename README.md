@@ -126,7 +126,22 @@ To Visit App:
 
          My most satisfying contribution was building a transparent, inclusive, and very effective communication environment for my teammates.
 
-   ⁍ **Mohammad Ayaz Noori**:
+ ⁍ **Mohammad Ayaz Noori**:
+   
+ - Linkedin: https://www.linkedin.com/in/mohammad-ayaz-noori-860321230
+   
+         1. Create a Full Menu Page With All functionality..
+
+         2. Create Signup/Login Page Full UI and Roting.
+
+         3. Create Add To cart Funcionallity With Updatation of Navbar.
+
+         4. Using Context Api For Menu And Price & Routing of all our Pages.
+
+         5. Help of team on rectify and fix the bugs.
+
+         6. I've also managed the team and project as a Co-Leader.
+    
    
    ⁍ **Shivam**:
    
