@@ -132,7 +132,7 @@ To Visit App:
    
          1. Create a Full Menu Page With All functionality..
 
-         2. Create Signup/Login Page Full UI and Roting.
+         2. Create Signup/Login Page UI and Roting.
 
          3. Create Add To cart Funcionallity With Updatation of Navbar.
 
