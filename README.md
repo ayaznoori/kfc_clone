@@ -158,7 +158,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- We take all the responsiblity for every single line of code. The desgin inspire from **https://online.kfc.co.in/**.
+- We take all the responsibility for every single line of code. The design inspires by **https://online.kfc.co.in/**.
 
 
 
