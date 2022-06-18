@@ -71,9 +71,9 @@ KFC Corporation, based in Louisville, Kentucky, is one of the few brands in Amer
 - User can order food online.
 - Auth Login through Mobile Number
 - user able to Logout.
-- Onclick any Category user get realated foods.
-- On Add to Cart user able to see Cost of food on top in Navbar.
-- user able to get multiple payment method.
+- OnClick any Category user to get related foods..
+- On Add to Cart, users are able to see the cost of food on top in Navbar.
+- user able to get multiple payment methods.
 
 ## Installation and Setup Instructions
 
