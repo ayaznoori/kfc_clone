@@ -18,8 +18,8 @@ In the project directory, you can run:
 
 ## My teammates are:
 
-1. Dev Ashish Saurabh 
-2. Mohammad Ayaz Noori	
+1. Dev Ashish Saurabh
+2. Mohammad Ayaz Noori
 3. Shivam
 4. Sirtaj Khan
 5. Aditya Sharma
