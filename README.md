@@ -14,7 +14,9 @@ In the project directory, you can run:
 3. navigate to the folder `kfc_clone`
 4. npm install
 5. npm start
-6. Make sure your `json-server` is running on port `8080`, `db.json` file is provided.
+6. To Visit App:
+**http://localhost:3000/**
+7. Make sure your `json-server` is running on port `8080`, `db.json` file is provided.
 
 ## My teammates are:
 
@@ -51,18 +53,16 @@ KFC Corporation, based in Louisville, Kentucky, is one of the few brands in Amer
 ## Glimpse and Screenshots of our cloned website:
 <table>
    <tr align=center>
-     <td  colspan=4>Landing Page<img src="https://miro.medium.com/max/1400/1*YFZ6Msu7spk95-P5ADaXLw.png" width=1000 ></td>
+     <td  colspan=3>Landing Page<img src="https://miro.medium.com/max/1400/1*YFZ6Msu7spk95-P5ADaXLw.png" width=1000 ></td>
   </tr>
-  <tr>
-    <td>Sign Up Page<img src="https://miro.medium.com/max/3822/1*RmNfD8odNlWduMPdbK4xMA.png" height=250 ></td>
-    <td>Otp Verification Page <img src="https://miro.medium.com/max/3822/1*SGYxHksBAA0ORke4BsjR3g.png" height=250 ></td>
+  <tr align=center>
+    <td>Menu Page<img src="https://miro.medium.com/max/1400/1*jx8S8r2meBnwBME_txfh6w.png" height=250></td>
     <td>Account Page<img src="https://miro.medium.com/max/1400/1*jcqx9iT5j4wQIlHEDB6y7w.png" height=250></td>
     <td>Help Page<img src="https://miro.medium.com/max/1400/1*NiNIHV07mmfPVhj0uGu6tw.png" height=250></td>
-  <tr>
-   <td>Menu Page<img src="https://miro.medium.com/max/1400/1*jx8S8r2meBnwBME_txfh6w.png" height=250></td>
+  <tr align=center>
+   <td>Sign Up Page<img src="https://miro.medium.com/max/3822/1*RmNfD8odNlWduMPdbK4xMA.png" height=250 ></td>
    <td>Cart Page<img src="" height=250></td>
    <td>Deal Page<img src="https://miro.medium.com/max/1400/1*8hjpEpkQBlvIWQ1ff_-gJA.png" height=250></td>
-   <td>Payment Page<img src="" height=250></td>
   </tr>
 </table>
 
@@ -74,18 +74,6 @@ KFC Corporation, based in Louisville, Kentucky, is one of the few brands in Amer
 - OnClick any Category user to get related foods..
 - On Add to Cart, users are able to see the cost of food on top in Navbar.
 - user able to get multiple payment methods.
-
-## Installation and Setup Instructions
-
-Clone down this repository. You will need **node** and **npm** installed globally on your machine.
-Installation:
-**npm install**
-To Run Test Suite:
-**npm test**
-To Start Server:
-**npm start**
-To Visit App:
-**http://localhost:3000/**
 
 ##  <- - - - - - -  - - - - - - - - - - - - - -Links and Acclaim - - - - - - - - - - - - - - - - - - - - - ->
 
