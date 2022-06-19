@@ -134,7 +134,7 @@ const toast=useToast();
     </div>
     <div className={style.right}>
      <div id="CHICKEN_BUCKETS">
-              <h1>CHICKEN BUCKETS</h1>
+              <h1 style={{marginTop:"1%"}}>CHICKEN BUCKETS</h1>
              <div className={style.itemcontainer}>
               
               { !data.chicken_buckets?"Loading...":data.chicken_buckets.map((ele,index)=> 

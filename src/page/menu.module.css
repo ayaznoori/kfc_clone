@@ -2,7 +2,6 @@
     width: 100%;
     margin: auto;
     padding: 20px;
- 
     display: flex;
 }
 .left{
@@ -17,10 +16,9 @@
     font-size: 33px;
 }
 .right{
-    height: 500px;
+    height: 800px;
     overflow : scroll;
     width: 80%;
- 
     background-color: #F8F7F5;
     scrollbar-width: 200px;
 }
