@@ -10,6 +10,7 @@ import Menu from './page/Menu';
 import LoginAuth from "./page/LoginAuth"
 import Detail from "./page/Details/Detail"
 import Help from "./page/Help/Help"
+import Confirmation from './page/Confirmaion/Confirmation';
 
 
 function App() {
@@ -39,6 +40,7 @@ if(spinner){
          {location.pathname==="/Login" || location.pathname==="/Login/auth" ? null : <Footer />}
          {/* <Detail/> */}
          {/* <Help/> */}
+         <Confirmation/>
       </div>
     )
   );
