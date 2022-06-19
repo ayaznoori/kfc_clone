@@ -61,7 +61,7 @@ KFC Corporation, based in Louisville, Kentucky, is one of the few brands in Amer
     <td>Help Page<img src="https://miro.medium.com/max/1400/1*NiNIHV07mmfPVhj0uGu6tw.png" height=250></td>
   <tr align=center>
    <td>Sign Up Page<img src="https://miro.medium.com/max/3822/1*RmNfD8odNlWduMPdbK4xMA.png" height=250 ></td>
-   <td>Cart Page<img src="" height=250></td>
+   <td>Cart Page<img src="https://cdn-images-1.medium.com/max/800/1*icg3B3MxOJqB1TBjEffH3g.png" height=250></td>
    <td>Deal Page<img src="https://miro.medium.com/max/1400/1*8hjpEpkQBlvIWQ1ff_-gJA.png" height=250></td>
   </tr>
 </table>
@@ -132,13 +132,35 @@ KFC Corporation, based in Louisville, Kentucky, is one of the few brands in Amer
     
    
  ⁍ **Shivam**:
-   
+ 
+ - Linkedin: https://www.linkedin.com/in/itsurshivam
+
+         1. Create a Navbar & Footer With All functionality..
+
+         2. Create Account Page,Help Page UI and Roting.
+
+         3. Create Confirmation Page .
+
+         4. Help of team on rectify and fix the bugs.
+
  ⁍ **Sirtaj Khan**:
  
  - Linkedin: https://www.linkedin.com/in/sirtaj-khan-275135147
+ - 
+         1. Create a UI Design of Deals Page..
+
+         2. Create Cart Page Basic Ui And Add to cart Functionality.
+
+         3. Create Remove cart functionality .
+
+         4. Help of team on rectify and fix the bugs.
+
    
    ⁍ **Aditya Sharma**:
    
+         1. Create a Data (db.json) for backend.
+
+
 
 ## Show your support
 
