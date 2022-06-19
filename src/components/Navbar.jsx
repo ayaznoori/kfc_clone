@@ -52,10 +52,10 @@ const Navbar = () => {
        
           <div className={styles.box3}>
             <div className={styles.line}></div>
-            <div className={styles.cartValue}> ₹ {total.toFixed(2)}</div>
-            <div className={styles.kfcBuket1}>
+           <Link to="/cart"> <div className={styles.cartValue}> ₹ {total.toFixed(2)}</div></Link>
+           <Link to="/cart">  <div className={styles.kfcBuket1}>
               {cart.length}
-            </div>
+            </div></Link>
           </div>
         </div>
       </nav>

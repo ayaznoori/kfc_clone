@@ -1,0 +1,104 @@
+.container {
+  /* border: 1px solid green; */
+  width: 80%;
+  margin: 3%;
+  display: flex;
+}
+.rowdata{
+    box-shadow: rgba(255, 255, 255, 0.2) 0px 0px 0px 1px inset, rgba(0, 0, 0, 0.9) 0px 0px 0px 1px;
+    background-color: rgb(235, 230, 230);
+    /* padding: 10px; */
+    /* margin-top: 20px; */
+    
+
+}
+.th {
+  margin-left: 1%;
+}
+table{
+    width: 100%;
+    
+}
+.th1{
+    /* width: 20%; */
+    
+}
+.theaddata{
+    display: flex;
+    /* background-color: red; */
+    position: 100%;
+    justify-content: space-between;
+}
+.incbtn{
+    font-size: 130%;
+    /* border: 1 px solid black; */
+    /* color: red; */
+    border-radius: 90%;
+    text-align: center;
+    width: 35%;
+
+}
+
+.qtyBtn{
+    align-items: center;
+}
+
+
+button{
+    border: 1px solid black;
+    font-size: 150%;
+}
+.cartp{
+    text-decoration: underline;
+    cursor: pointer;
+    font-weight: 700;
+}
+.cartremoveall{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.ldiv{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 700;
+    margin-top: 3%;
+    
+}
+.removebtn{
+    font-weight: 700;
+    height: 70px;
+    border: 1px solid black;
+    border-radius: 15%;
+}
+.box{
+    width:88%;
+    /* border: 1px solid red; */
+}
+.left{
+    margin-left: 10%;
+    width: 35%;
+    height: 300px;
+    line-height: 30px;
+    border: 1 px solid red;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+}
+.left h1{
+    font-weight: 700;
+}
+.total{
+    display: flex;
+    justify-content: space-between;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+    margin-top: 30px;
+}
+.chkout{
+    display: flex;
+    color: white;
+    background-color: red;
+    justify-content: space-between;
+    height: 40px;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 20%;
+}

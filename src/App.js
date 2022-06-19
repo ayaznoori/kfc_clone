@@ -8,6 +8,7 @@ import Deals from "./page/Deals"
 import Login from './page/Login';
 import Menu from './page/Menu';
 import LoginAuth from "./page/LoginAuth"
+import Cart from '../src/page/Cart';
 
 function App() {
 const [loading,setLoading]=useState(true)
@@ -29,7 +30,8 @@ if(spinner){
             <Route path='/Login' element={<Login/>}/>
             <Route path='/Login/auth' element={<LoginAuth/>}/>
             <Route path='/menu' element={<Menu/>}/> 
-            <Route path='/deals' element={<Deals/>}/>       
+            <Route path='/deals' element={<Deals/>}/>
+            <Route path='/cart' element={<Cart/>}/>       
          </Routes>
          {location.pathname==="/Login" || location.pathname==="/Login/auth" ? null : <Footer />}
       </div>
