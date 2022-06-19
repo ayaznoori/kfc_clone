@@ -45,7 +45,7 @@ const Navbar = () => {
                 alt=""
               />
               
-                <h5>{otp==="1234" ? <h5>Account</h5>:<Link className={styles.signIn1} to="/Login"><h5>Sign In</h5></Link>}</h5>
+                <h5>{otp==="1234" ? <Link to="/Account"><h5>Account</h5></Link>:<Link className={styles.signIn1} to="/Login"><h5>Sign In</h5></Link>}</h5>
               
             </div>
           </div>

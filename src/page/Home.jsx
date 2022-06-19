@@ -107,10 +107,12 @@ const Home = () => {
       </div>
       <div className={style.slider}>
         <Carousel
-          autoPlay
-          interval="4000"
+          autoPlay={true}
+          interval="5000"
           transitionTime="500"
           showThumbs={false}
+          showArrows={false}
+           
         >
           <div>
             <img
@@ -173,7 +175,7 @@ const Home = () => {
                   margin: "auto",
                 }}
               >
-                <button
+                 <Link to="/menu"><button
                   style={{
                     backgroundColor: "transparent",
                     border: "1px solid black",
@@ -183,8 +185,8 @@ const Home = () => {
                   }}
                 >
                   Pick up
-                </button>
-                <button
+                </button></Link>
+                <Link to="/menu"><button
                   style={{
                     backgroundColor: "transparent",
                     border: "1px solid black",
@@ -194,8 +196,8 @@ const Home = () => {
                   }}
                 >
                   Dine In
-                </button>
-                <button
+                </button></Link>
+                <Link to="/menu"><button
                   style={{
                     backgroundColor: "transparent",
                     border: "1px solid black",
@@ -205,7 +207,7 @@ const Home = () => {
                   }}
                 >
                   Delivery
-                </button>
+                </button></Link>
               </div>
               <br />
               <br />

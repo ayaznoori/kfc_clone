@@ -27,7 +27,7 @@ const Login = () => {
         </div><br/><br/>
 		<form onSubmit={handeOnSubmit}>
         <div>
-            <input type='number'  name="number" onChange={handeonchange} className={style.numberbox} placeholder='Phone Number*' required/><br/>
+            <input maxLength={10} type='tel'  name="number" onChange={handeonchange} className={style.numberbox} placeholder='Phone Number*'  required/><br/>
             {form < 1000000000 && form > 0 ? <div style={{color:"red",textAlign:"left",display:"flex",alignItems:"center"}}><img src="https://login.kfc.co.in/auth/resources/1vkce/login/kfcIndiaLoginUIDev_2021_10_27_16_49/images/Error.svg" alt=""/><span style={{marginLeft:"10px"}}>Please enter a valid 10-digit mobile number</span></div> : ""}<br/>
         </div> 
        
