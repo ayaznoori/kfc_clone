@@ -85,7 +85,7 @@ KFC Corporation, based in Louisville, Kentucky, is one of the few brands in Amer
 
 - Blog Link: https://medium.com/@onlyvishwasindia/project-kfc-clone-3742f3aba968
 
-- A video link for an explanation of a Small Part of the Website: 
+- A video link for an explanation of a Small Part of the Website: https://drive.google.com/file/d/1-owvo1QOqZQSp1COftJHUj8CVPQIVIei/view?usp=sharing
 
 ## ‣ Acclaim for team members' Contributions:
 
