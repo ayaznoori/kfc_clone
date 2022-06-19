@@ -7,9 +7,11 @@ import { Route, Routes, useLocation } from 'react-router-dom';
 import Deals from "./page/Deals"
 import Login from './page/Login';
 import Menu from './page/Menu';
-import LoginAuth from "./page/LoginAuth"
-import Detail from "./page/Details/Detail"
-import Help from "./page/Help/Help"
+import LoginAuth from "./page/LoginAuth";
+import Detail from "./page/Details/Detail";
+import Help from "./page/Help/Help";
+import Cart from "./page/Cart";
+import Confirmation from './page/Confirmaion/Confirmation';
 
 
 function App() {
@@ -25,7 +27,7 @@ if(spinner){
   return (
     !loading && (
       <div className="App">
-        {location.pathname==="/Login" || location.pathname==="/Login/auth" ? null : <Navbar />}
+        {location.pathname==="/Login" || location.pathname==="/Login/auth"  ||location.pathname==="/confirm" ? null : <Navbar />}
          {/* <Navbar /> */}
          <Routes>
             <Route path='/' element={<Home />}/>
@@ -35,10 +37,10 @@ if(spinner){
             <Route path='/deals' element={<Deals />}/> 
             <Route path="/Account" element={<Detail />}/>
             <Route path="/Help" element={<Help />}/>
+            <Route path="/cart" element={<Cart />}/>
+            <Route path="/confirm" element={<Confirmation />}/>
          </Routes>
-         {location.pathname==="/Login" || location.pathname==="/Login/auth" ? null : <Footer />}
-         {/* <Detail/> */}
-         {/* <Help/> */}
+         {location.pathname==="/Login" || location.pathname==="/Login/auth" ||location.pathname==="/confirm" ? null : <Footer />}
       </div>
     )
   );
