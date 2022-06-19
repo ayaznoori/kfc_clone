@@ -85,7 +85,7 @@ KFC Corporation, based in Louisville, Kentucky, is one of the few brands in Amer
 
 - Netlify Link: 
 
-- Blog Link: 
+- Blog Link: https://medium.com/@onlyvishwasindia/project-kfc-clone-3742f3aba968
 
 - A video link for an explanation of a Small Part of the Website: 
 
@@ -101,6 +101,8 @@ KFC Corporation, based in Louisville, Kentucky, is one of the few brands in Amer
          2.Creation of Signup page, otp verification Page with login,logout Function which includes the hovering and routing.
 
          3.Update Deal Page ,Help Page and Account Page with full functional and openable on every screen.
+
+         4.Provide Add To Cart UI Design, Checkout UI & Functionality and Payment page Redirect Functionality .
 
          4.Enabled functionalities with extensive use of React.
 
