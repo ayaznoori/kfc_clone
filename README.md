@@ -79,9 +79,7 @@ KFC Corporation, based in Louisville, Kentucky, is one of the few brands in Amer
 
 ## ‣ WebPage deployed link:
 
-- Github Repo LINK: 
-
-- Github Site Deployment link: 
+- Github Repo LINK: https://github.com/ayaznoori/kfc_clone
 
 - Netlify Link: 
 
