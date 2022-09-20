@@ -32,7 +32,7 @@ const Menu = () => {
     ToastExample();
   };
   useEffect(() => {
-    axios.get("http://localhost:8080/items").then(function (res) {
+    axios.get("https://4s7l3o.sse.codesandbox.io/items").then(function (res) {
       setData(res.data);
     });
   }, []);
