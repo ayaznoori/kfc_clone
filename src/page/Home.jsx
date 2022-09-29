@@ -21,14 +21,14 @@ const Home = () => {
   const [card,setCard]=useState([])
   const navigate=useNavigate()
   useEffect(() => {
-    axios.get("https://4s7l3o.sse.codesandbox.io/homedata").then(function(res){
+    axios.get("https://kfc-api.herokuapp.com/homedata").then(function(res){
     setData(res.data)
       
     })
   
   }, [])
   useEffect(()=>{
-    axios.get("https://4s7l3o.sse.codesandbox.io/Dealcard").then(function(res1){
+    axios.get("https://kfc-api.herokuapp.com/Dealcard").then(function(res1){
     setCard(res1.data)
   })
   },[])
