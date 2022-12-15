@@ -32,7 +32,7 @@ const Menu = () => {
     ToastExample();
   };
   useEffect(() => {
-    axios.get("https://kfc-api.herokuapp.com/items").then(function (res) {
+    axios.get("https://kfc-backend.onrender.com/items").then(function (res) {
       setData(res.data);
     });
   }, []);
